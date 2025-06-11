@@ -1,0 +1,3001 @@
+{
+  "id": "9b73ccfc-7f6a-4e5d-984b-59ec9206afc0",
+  "version": "2.0",
+  "name": "1.2 DangKyTaiKhoan",
+  "url": "http://localhost:53258",
+  "tests": [{
+    "id": "02810a2e-f6c6-467f-8261-1478c6ec9de3",
+    "name": "TC_FUNC_009",
+    "commands": [{
+      "id": "61451c8c-087f-4f29-ba08-cd24e2b0918f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "585daae6-4d0a-4e23-b63d-6ea6223035a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "552x704",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8796da49-8ea5-4acb-a717-408cc625595c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký tài khoản",
+      "targets": [
+        ["linkText=Đăng ký tài khoản", "linkText"],
+        ["css=.btn-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký tài khoản')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/TaiKhoan/DangKy')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13a94db2-ad6a-45e5-b29e-0f70f889b5e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(1) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(1) > .form-label", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Email')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2da7b96-b040-4a4e-bba6-e9bcf4d5610e",
+      "comment": "",
+      "command": "type",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "new@abc.com"
+    }, {
+      "id": "a2945365-fb79-4388-8ba2-c74d3c3b4aa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(2) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(2) > .form-label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "869e143c-fadc-4756-b2da-52059f67eb1e",
+      "comment": "",
+      "command": "type",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "1f3d2e1b-ba04-4519-a0a7-caf2f08e180b",
+      "comment": "",
+      "command": "type",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456Abc"
+    }, {
+      "id": "127a2568-e22e-4bf3-a320-863981aa7a9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(3) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(3) > .form-label", "css:finder"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Xác nhận mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65d5c65a-a0ef-45ec-8a8a-4a7d61183cad",
+      "comment": "",
+      "command": "type",
+      "target": "id=pConfirmPassword",
+      "targets": [
+        ["id=pConfirmPassword", "id"],
+        ["name=pConfirmPassword", "name"],
+        ["css=#pConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='pConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456Abc"
+    }, {
+      "id": "5c1c9748-047e-49f9-a64b-7048e9b39b1a",
+      "comment": "",
+      "command": "click",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "624bd18f-ab24-40ef-bf85-b7628894af49",
+      "comment": "",
+      "command": "type",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "TranKhanhVu"
+    }, {
+      "id": "f7cbb47c-fd6e-43f9-a99d-614f08a3bd01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "622e43e6-f48a-4f9a-a219-db170640c2f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d893f03-b074-487e-9cab-71cfda646083",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09ee8eb1-ed79-4fc9-bfd1-06cace3ae919",
+      "comment": "",
+      "command": "click",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04deb7c2-4174-41f7-919a-2be20817c1f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "0987654321"
+    }, {
+      "id": "76dd4987-a524-4b4e-a495-aff32ec515e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a883b4b-7e1b-446e-bd19-03866f2eb71a",
+      "comment": "",
+      "command": "type",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "c458cbec-bd76-4f75-a58f-38fc40acc974",
+      "comment": "",
+      "command": "click",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ee6046f-4745-484d-afa7-91f902a74b62",
+      "comment": "",
+      "command": "type",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "DN"
+    }, {
+      "id": "2d0126c0-53fe-494c-b7fa-9e48f3dc6783",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-205.41665649414062"
+    }, {
+      "id": "34abe58e-07c4-4d57-b9f2-d4e0db003b04",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-205.41665649414062"
+    }, {
+      "id": "e20fa7db-7df4-4370-801e-e04598cd7312",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-205.41665649414062"
+    }, {
+      "id": "b6200165-ec8a-4b40-b503-39a316a1b3d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cb1fbd4-0ee7-40b9-8dd7-5ce4c24669dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#day > option:nth-child(1)",
+      "targets": [
+        ["css=#day > option:nth-child(1)", "css:finder"],
+        ["xpath=//option[@value='1']", "xpath:attributes"],
+        ["xpath=//select[@id='day']/option", "xpath:idRelative"],
+        ["xpath=//option", "xpath:position"],
+        ["xpath=//option[contains(.,'Ngày 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae9298c7-b6fc-445a-8483-cadb6798d0f5",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-205.41665649414062"
+    }, {
+      "id": "b52dca87-09d1-4d35-81a9-ba6edb7f8a5b",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-205.41665649414062"
+    }, {
+      "id": "cf6c0182-436c-4a75-a95a-331db29322ca",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-205.41665649414062"
+    }, {
+      "id": "d430e73d-813e-4af7-aa32-469eea4f1c29",
+      "comment": "",
+      "command": "click",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46ab428e-d35c-4b02-af31-0aa7003979fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#month > option:nth-child(1)",
+      "targets": [
+        ["css=#month > option:nth-child(1)", "css:finder"],
+        ["xpath=(//option[@value='1'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='month']/option", "xpath:idRelative"],
+        ["xpath=//select[2]/option", "xpath:position"],
+        ["xpath=//option[contains(.,'Tháng 1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31f08555-1097-46df-85bf-049fe35feec8",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-205.41665649414062"
+    }, {
+      "id": "d1aef59f-9caa-4473-804d-4192d788e0df",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-205.41665649414062"
+    }, {
+      "id": "7cf54b93-80ed-43a2-a07a-6049a026a98c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-205.41665649414062"
+    }, {
+      "id": "db82b4cc-13dd-47fe-a030-1cca447dd037",
+      "comment": "",
+      "command": "click",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acd02460-5b3a-4ce7-a405-fb0a5b530328",
+      "comment": "",
+      "command": "select",
+      "target": "id=year",
+      "targets": [],
+      "value": "label=Năm 1926"
+    }, {
+      "id": "7da5f941-66db-4701-9d55-43415b205697",
+      "comment": "",
+      "command": "click",
+      "target": "css=#year > option:nth-child(2)",
+      "targets": [
+        ["css=#year > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='1926']", "xpath:attributes"],
+        ["xpath=//select[@id='year']/option[2]", "xpath:idRelative"],
+        ["xpath=//select[3]/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Năm 1926')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ca9d731-b94d-4764-919d-5f7d7cd261bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20515f8d-afb9-45ec-8965-bdca310deae4",
+      "comment": "",
+      "command": "click",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c337338-856b-48d3-a8f6-7d00d10e51d0",
+      "comment": "",
+      "command": "select",
+      "target": "id=day",
+      "targets": [],
+      "value": "label=Ngày 21"
+    }, {
+      "id": "47821ddd-d614-4c8d-a6c3-55c8b8e296d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#day > option:nth-child(21)",
+      "targets": [
+        ["css=#day > option:nth-child(21)", "css:finder"],
+        ["xpath=//option[@value='21']", "xpath:attributes"],
+        ["xpath=//select[@id='day']/option[21]", "xpath:idRelative"],
+        ["xpath=//option[21]", "xpath:position"],
+        ["xpath=//option[contains(.,'Ngày 21')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96daa6bd-2d6e-4e9c-808d-4076f8430da6",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-41.416656494140625"
+    }, {
+      "id": "a54b8d6a-1012-4ba5-9fc1-55e417657fe9",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-41.416656494140625"
+    }, {
+      "id": "8de914ce-bacd-491c-82fa-ebdc738b366e",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-41.416656494140625"
+    }, {
+      "id": "11e6b5f9-559d-42b1-8b8a-1fca9966283a",
+      "comment": "",
+      "command": "click",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01e07ef6-9637-46cd-8607-7f137ed10209",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-866.61669921875,-151.1999969482422"
+    }, {
+      "id": "2f0546be-bb4d-458d-9f55-379d57897ffd",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-866.61669921875,-151.1999969482422"
+    }, {
+      "id": "6516c807-cd70-4ccd-a083-a350298bc765",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-866.61669921875,-151.1999969482422"
+    }, {
+      "id": "3249442e-f88f-4248-af74-15080c60b453",
+      "comment": "",
+      "command": "click",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25912b49-49d2-4a4f-8b5c-4bed29b186a9",
+      "comment": "",
+      "command": "select",
+      "target": "id=year",
+      "targets": [],
+      "value": "label=Năm 2004"
+    }, {
+      "id": "849a5e11-c670-4dc1-b3dd-ddbb93bd4e1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(80)",
+      "targets": [
+        ["css=option:nth-child(80)", "css:finder"],
+        ["xpath=//option[@value='2004']", "xpath:attributes"],
+        ["xpath=//select[@id='year']/option[80]", "xpath:idRelative"],
+        ["xpath=//option[80]", "xpath:position"],
+        ["xpath=//option[contains(.,'Năm 2004')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "037238ab-e41e-4741-a737-96810ee8ce8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff5ac268-254a-40d2-b34a-6a3fe8ff9061",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Đăng ký thành công!')]", "xpath:innerText"]
+      ],
+      "value": " Đăng ký thành công!"
+    }]
+  }, {
+    "id": "92445f13-6f9e-4be4-b809-622fbe13c0eb",
+    "name": "TC_FUNC_010",
+    "commands": [{
+      "id": "be5f927c-3881-4416-8320-a4b025892b21",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96b60535-995e-43b2-bb8f-ef6e6affba31",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "552x704",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b0c83fa-541e-4bc3-80b6-abc7e734ef7a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký tài khoản",
+      "targets": [
+        ["linkText=Đăng ký tài khoản", "linkText"],
+        ["css=.btn-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký tài khoản')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/TaiKhoan/DangKy')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dea3d8f-5d9e-457a-8d3b-47ee71d97f91",
+      "comment": "",
+      "command": "click",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0d12e34-bf14-4a25-b4f1-bca1f893be01",
+      "comment": "",
+      "command": "type",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "new@abc.com"
+    }, {
+      "id": "86d8de9f-abba-419b-86cd-6d45256028ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dad8135c-142d-4729-af69-27f1f715eb2c",
+      "comment": "",
+      "command": "type",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456Abc"
+    }, {
+      "id": "5421d134-8aea-4e46-83c7-ca7ecd4257f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(3) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(3) > .form-label", "css:finder"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Xác nhận mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a734d996-40f0-4f31-96a4-ca3a56aa46c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=pConfirmPassword",
+      "targets": [
+        ["id=pConfirmPassword", "id"],
+        ["name=pConfirmPassword", "name"],
+        ["css=#pConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='pConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456Abc"
+    }, {
+      "id": "495cb3f4-8c78-4cf6-8ab0-fddf5539d1c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4024e209-6f20-40a4-a8fb-a6b31a3eabd8",
+      "comment": "",
+      "command": "type",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Tran"
+    }, {
+      "id": "7e564632-45d5-4e5a-a709-3fbbd373b17c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "ec8ddb37-aa80-4e9d-988f-5893ad816cb0",
+      "comment": "",
+      "command": "type",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "TranKhanhVu2"
+    }, {
+      "id": "19c60967-630a-407a-8e52-2a2014e8855f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdbda507-6407-4847-b176-970c27c42ae9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48dcf48b-7895-41da-9651-dac3f15f6e2f",
+      "comment": "",
+      "command": "click",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38667d3b-62dd-4eb4-a663-8d6a3658f6e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "0987654321"
+    }, {
+      "id": "0fd1c5c0-192c-4901-b429-7d4566816cc1",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-311.41668701171875"
+    }, {
+      "id": "9780d036-029d-4411-a196-f50180bf022d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-311.41668701171875"
+    }, {
+      "id": "759c01ae-5a65-4913-bc20-8e96ba3f86c5",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-311.41668701171875"
+    }, {
+      "id": "4bbe450d-5abe-4f9c-809a-f874078d02c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93db1da6-185e-46bf-9c41-2bca486ee1a0",
+      "comment": "",
+      "command": "select",
+      "target": "id=day",
+      "targets": [],
+      "value": "label=Ngày 5"
+    }, {
+      "id": "2d3a7036-da53-464b-a9a8-48ca46374f71",
+      "comment": "",
+      "command": "click",
+      "target": "css=#day > option:nth-child(5)",
+      "targets": [
+        ["css=#day > option:nth-child(5)", "css:finder"],
+        ["xpath=//option[@value='5']", "xpath:attributes"],
+        ["xpath=//select[@id='day']/option[5]", "xpath:idRelative"],
+        ["xpath=//option[5]", "xpath:position"],
+        ["xpath=//option[contains(.,'Ngày 5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1e2fc50-43e5-4845-8439-0c493b76cf21",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-311.41668701171875"
+    }, {
+      "id": "228afbf3-c71c-4a36-89af-cc7fb7e8ee0f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-311.41668701171875"
+    }, {
+      "id": "80217daa-0294-438b-9dbc-5ffa0ca71dea",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-311.41668701171875"
+    }, {
+      "id": "2ec01809-0f97-4dee-919c-7b0c3313198a",
+      "comment": "",
+      "command": "click",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64259069-b5f5-49ad-bf8d-9e0075b9314d",
+      "comment": "",
+      "command": "select",
+      "target": "id=month",
+      "targets": [],
+      "value": "label=Tháng 5"
+    }, {
+      "id": "3c20ae7f-ed93-46f7-a5ca-bd2dbc9672f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#month > option:nth-child(5)",
+      "targets": [
+        ["css=#month > option:nth-child(5)", "css:finder"],
+        ["xpath=(//option[@value='5'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='month']/option[5]", "xpath:idRelative"],
+        ["xpath=//select[2]/option[5]", "xpath:position"],
+        ["xpath=//option[contains(.,'Tháng 5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a659fe0e-ef77-4ce5-b769-49db4ae49649",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-311.41668701171875"
+    }, {
+      "id": "73510bd2-aa3e-4e3f-8885-357eb8121995",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-311.41668701171875"
+    }, {
+      "id": "76980a48-c25f-4e73-baee-19c75f34ebe6",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-311.41668701171875"
+    }, {
+      "id": "6dc18a1c-ece3-42a4-8809-7fc6141f5558",
+      "comment": "",
+      "command": "click",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "518aa4c9-fc9e-4edb-a8c1-0195f7e9364a",
+      "comment": "",
+      "command": "select",
+      "target": "id=year",
+      "targets": [],
+      "value": "label=Năm 2003"
+    }, {
+      "id": "2f20ce3c-b74a-44bd-b1f2-ab3fdd8c0587",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(79)",
+      "targets": [
+        ["css=option:nth-child(79)", "css:finder"],
+        ["xpath=//option[@value='2003']", "xpath:attributes"],
+        ["xpath=//select[@id='year']/option[79]", "xpath:idRelative"],
+        ["xpath=//option[79]", "xpath:position"],
+        ["xpath=//option[contains(.,'Năm 2003')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf5cf43b-1b61-477a-a9c2-88d7a2a2a7fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd9a9517-40e7-4372-9c9b-424b393fa0e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "083738888833"
+    }, {
+      "id": "28ee1391-0689-478b-8d34-9ac4361957d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f70c4175-85e2-4ebb-8b36-cda3f771c193",
+      "comment": "",
+      "command": "type",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "DN"
+    }, {
+      "id": "6cd59355-fae6-496e-82ce-429c5057d5aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40776b64-8f13-43ea-b5ed-754f3cfb8fd5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"]
+      ],
+      "value": "Email, số điện thoại, hoặc CCCD đã được đăng ký. System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__KhachHan__A9D10534D5A5C9FF'. Cannot insert duplicate key in object 'dbo.KhachHang'. The duplicate key value is (new@abc.com). Violation of UNIQUE KEY constraint 'UQ__TaiKhoan__A9D105345709EC3A'. Cannot insert duplicate key in object 'dbo.TaiKhoan'. The duplicate key value is (new@abc.com). The statement has been terminated. The statement has been terminated. at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction) at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose) at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady) at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite) at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry) at System.Data.SqlClient.SqlCommand.ExecuteNonQuery() at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult) at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries) at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query) at System.Data.Linq.DataContext.ExecuteCommand(String command, Object[] parameters) at QuanLyVeTau.Controllers.TaiKhoanController.DangKy(FormCollection collection) in C:\\Users\\Admin\\Desktop\\KiemDinh\\QuanLyVeTau-master\\QuanLyVeTau\\Controllers\\TaiKhoanController.cs:line 123 ClientConnectionId:757598df-631a-4927-8b89-8c1424ac96b7 Error Number:2627,State:1,Class:14"
+    }]
+  }, {
+    "id": "059ebb6e-f331-49ea-81be-fff38f4e3fff",
+    "name": "TC_FUNC_011",
+    "commands": [{
+      "id": "d02fa3f5-781d-4a80-829a-2f99bc3fe163",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70533231-f647-4487-a969-85e652d5b8cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "552x704",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33f9deec-3bc1-40f0-8a32-688050d1c0ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký tài khoản",
+      "targets": [
+        ["linkText=Đăng ký tài khoản", "linkText"],
+        ["css=.btn-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký tài khoản')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/TaiKhoan/DangKy')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9843955-9081-4029-95de-bbdd2e3e6c5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7beeeb06-3904-4723-9dfd-29b0009a3ef6",
+      "comment": "",
+      "command": "type",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "new2@abc.com"
+    }, {
+      "id": "66606461-0cb3-4cfe-8acf-46c39b5cce64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(2) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(2) > .form-label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bad5abc2-40f9-4745-80a8-5e2b0961cc0a",
+      "comment": "",
+      "command": "type",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456Abc"
+    }, {
+      "id": "57a43db5-856f-4a07-958a-7f4945881c2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(3) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(3) > .form-label", "css:finder"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Xác nhận mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "435446ba-eb8b-416f-8d32-03c481e18b0d",
+      "comment": "",
+      "command": "type",
+      "target": "id=pConfirmPassword",
+      "targets": [
+        ["id=pConfirmPassword", "id"],
+        ["name=pConfirmPassword", "name"],
+        ["css=#pConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='pConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456Abc"
+    }, {
+      "id": "29d93d5e-5f79-4762-83df-5e302e4f52af",
+      "comment": "",
+      "command": "click",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcfb33ad-ed11-493c-8a0a-0fbcfb991a5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Tr"
+    }, {
+      "id": "8600c477-38b4-437b-ac0b-5b70ca59a8a4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "ace9de3a-448f-4bd3-b7c5-b33d0936cc06",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "36965b32-fa74-4461-ad03-9dabd8212d79",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_UP}"
+    }, {
+      "id": "2e3e122b-6131-4149-9f1e-157ee9ada2c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "T"
+    }, {
+      "id": "f82ea745-afb5-469b-b01a-547bb44a298d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "7c03e3b7-480c-44f5-8ad1-12f3dbddc11c",
+      "comment": "",
+      "command": "type",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "TranKhanhVu3"
+    }, {
+      "id": "ca9a60ee-c614-4e4a-a07b-b29fa678c4ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ffc10a8-f648-4dde-a0e7-09c56377eeeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f71dc49d-99f9-493c-9750-f29ee75d85ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a532b99-218c-42a0-8c4a-33ac3a8c7da6",
+      "comment": "",
+      "command": "type",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "09876543221"
+    }, {
+      "id": "e2c5b285-5584-4514-96a4-c8630ea8aba7",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-303.41668701171875"
+    }, {
+      "id": "fa6d7dd8-b3cb-4d87-b2b1-179522119fcf",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-303.41668701171875"
+    }, {
+      "id": "ae78e52e-9db1-4f64-bc10-a72ba3dc92a9",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-303.41668701171875"
+    }, {
+      "id": "e743e673-6b30-49e1-b199-8e7a5d84f746",
+      "comment": "",
+      "command": "click",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f70f9223-6a66-4fc0-b712-ac0b0af5c530",
+      "comment": "",
+      "command": "select",
+      "target": "id=day",
+      "targets": [],
+      "value": "label=Ngày 4"
+    }, {
+      "id": "f749df94-746b-4b97-8d30-f6f39cc41b86",
+      "comment": "",
+      "command": "click",
+      "target": "css=#day > option:nth-child(4)",
+      "targets": [
+        ["css=#day > option:nth-child(4)", "css:finder"],
+        ["xpath=//option[@value='4']", "xpath:attributes"],
+        ["xpath=//select[@id='day']/option[4]", "xpath:idRelative"],
+        ["xpath=//option[4]", "xpath:position"],
+        ["xpath=//option[contains(.,'Ngày 4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb031fdb-d6ce-4c7f-8e17-9738989099c5",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-303.41668701171875"
+    }, {
+      "id": "905d85c6-3281-4f3d-9f7f-3e8cbba86aa2",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-303.41668701171875"
+    }, {
+      "id": "d17046a9-6e8a-4747-8f74-105a27afd11f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-303.41668701171875"
+    }, {
+      "id": "7689e8fa-462d-44a5-949d-dd845e0f7287",
+      "comment": "",
+      "command": "click",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7f0d5d1-d503-4e1c-9465-5a868b0acadc",
+      "comment": "",
+      "command": "select",
+      "target": "id=month",
+      "targets": [],
+      "value": "label=Tháng 6"
+    }, {
+      "id": "593182e1-4f2f-4523-912c-b88e4fbf605e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#month > option:nth-child(6)",
+      "targets": [
+        ["css=#month > option:nth-child(6)", "css:finder"],
+        ["xpath=(//option[@value='6'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='month']/option[6]", "xpath:idRelative"],
+        ["xpath=//select[2]/option[6]", "xpath:position"],
+        ["xpath=//option[contains(.,'Tháng 6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44c55ba3-50f1-42a8-b557-4d6ee430061c",
+      "comment": "",
+      "command": "click",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e1ad8b-f148-4795-aa9d-d8267ccdb67e",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-303.41668701171875"
+    }, {
+      "id": "7db2edcc-5336-4379-a916-a2340be689c7",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-303.41668701171875"
+    }, {
+      "id": "8214c2ae-a27d-4692-aff7-61a50d372f37",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-303.41668701171875"
+    }, {
+      "id": "0921e023-5fa2-4598-8132-059374b138da",
+      "comment": "",
+      "command": "click",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ab82c1e-4e37-47e3-ac80-9035f546e912",
+      "comment": "",
+      "command": "select",
+      "target": "id=year",
+      "targets": [],
+      "value": "label=Năm 2002"
+    }, {
+      "id": "26a43bfe-b757-4c65-9654-cf7acc1f5702",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(78)",
+      "targets": [
+        ["css=option:nth-child(78)", "css:finder"],
+        ["xpath=//option[@value='2002']", "xpath:attributes"],
+        ["xpath=//select[@id='year']/option[78]", "xpath:idRelative"],
+        ["xpath=//option[78]", "xpath:position"],
+        ["xpath=//option[contains(.,'Năm 2002')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ebb9527-b048-4860-bfbc-2fea1e823cf6",
+      "comment": "",
+      "command": "click",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d243df93-40f8-4021-93a4-c342fbf00e84",
+      "comment": "",
+      "command": "type",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "176c44a9-f722-4bb6-8610-9f43727f3875",
+      "comment": "",
+      "command": "click",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b02294bf-67f0-495a-9cc0-a2f17e9ef4b3",
+      "comment": "",
+      "command": "type",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "DN"
+    }, {
+      "id": "3f27b40c-7334-4f52-8535-7c6087b66cd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8a568f2-7c89-41bf-846c-0d02fb259cb6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"]
+      ],
+      "value": "Email, số điện thoại, hoặc CCCD đã được đăng ký. System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'UQ__KhachHan__A955A0AA9009A64E'. Cannot insert duplicate key in object 'dbo.KhachHang'. The duplicate key value is (123456789). The INSERT statement conflicted with the FOREIGN KEY constraint \"FK__TaiKhoan__Email__74AE54BC\". The conflict occurred in database \"QL_VETAU\", table \"dbo.KhachHang\", column 'Email'. The statement has been terminated. The statement has been terminated. at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction) at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose) at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady) at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite) at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry) at System.Data.SqlClient.SqlCommand.ExecuteNonQuery() at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult) at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries) at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query) at System.Data.Linq.DataContext.ExecuteCommand(String command, Object[] parameters) at QuanLyVeTau.Controllers.TaiKhoanController.DangKy(FormCollection collection) in C:\\Users\\Admin\\Desktop\\KiemDinh\\QuanLyVeTau-master\\QuanLyVeTau\\Controllers\\TaiKhoanController.cs:line 123 ClientConnectionId:757598df-631a-4927-8b89-8c1424ac96b7 Error Number:2627,State:1,Class:14"
+    }]
+  }, {
+    "id": "74ae7aa7-7311-4a5b-a1fe-2acaaa3a8d1a",
+    "name": "TC_FUNC_012",
+    "commands": [{
+      "id": "8d30b0bf-176d-4de0-9a3e-1ed11c4899ee",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bf3f3f4-6c86-4a1d-845b-69d2c1bb6495",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "552x704",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "300bf73b-2dac-4397-b582-0a2a220e2b8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký tài khoản",
+      "targets": [
+        ["linkText=Đăng ký tài khoản", "linkText"],
+        ["css=.btn-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký tài khoản')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/TaiKhoan/DangKy')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b7e36aa-8a40-4efa-ac95-b976cde464f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b0ea1de-10bd-41ce-96fc-e1b5a6cf018f",
+      "comment": "",
+      "command": "type",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "new3@abc.com"
+    }, {
+      "id": "92089740-67a9-435a-994a-1a3b9faad203",
+      "comment": "",
+      "command": "click",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6248675d-26d7-4366-aef8-c6848e75c102",
+      "comment": "",
+      "command": "type",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "5e66c99e-7ded-408c-add2-ab86a577990c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(3) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(3) > .form-label", "css:finder"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Xác nhận mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "793fee8b-f7b9-450a-91b8-2561597f2e5f",
+      "comment": "",
+      "command": "type",
+      "target": "id=pConfirmPassword",
+      "targets": [
+        ["id=pConfirmPassword", "id"],
+        ["name=pConfirmPassword", "name"],
+        ["css=#pConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='pConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "e11c006b-47af-4a9d-8faf-d4fa4d3c8d5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f1b1423-5586-4053-a6c2-db6a9ae1413e",
+      "comment": "",
+      "command": "type",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "TranKhanhVu4"
+    }, {
+      "id": "2c2a7bab-c258-4b3e-9834-d23dd37aab44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0533444e-96d2-4dd3-b000-1af8be1d4050",
+      "comment": "",
+      "command": "click",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f49473d9-5da2-4447-9b0f-5bb06e80dcaa",
+      "comment": "",
+      "command": "type",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "0987654321"
+    }, {
+      "id": "831cda01-2f07-4eb9-bcab-854054332553",
+      "comment": "",
+      "command": "type",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "7c6028fc-6150-4de8-a112-831d5e57c5a9",
+      "comment": "",
+      "command": "click",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdfb3e0f-1bc7-4723-a34b-deaffa9bf4b9",
+      "comment": "",
+      "command": "type",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456Abc"
+    }, {
+      "id": "8168db89-5328-426a-b85d-553020890bb8",
+      "comment": "",
+      "command": "click",
+      "target": "id=pConfirmPassword",
+      "targets": [
+        ["id=pConfirmPassword", "id"],
+        ["name=pConfirmPassword", "name"],
+        ["css=#pConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='pConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b5e76c6-6f84-4e96-a931-a8be8a3d3213",
+      "comment": "",
+      "command": "type",
+      "target": "id=pConfirmPassword",
+      "targets": [
+        ["id=pConfirmPassword", "id"],
+        ["name=pConfirmPassword", "name"],
+        ["css=#pConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='pConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456Abc"
+    }, {
+      "id": "d61d1142-41e7-46fa-9f4b-11b41f46dc04",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-207.4166717529297"
+    }, {
+      "id": "c793269c-c369-4e03-8c9b-dcc5d41eab9f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-207.4166717529297"
+    }, {
+      "id": "3bcaf4d4-9f60-4d72-b99e-f649036debf3",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-219.5833282470703,-207.4166717529297"
+    }, {
+      "id": "395f629e-2f4d-40c4-a876-79500d225eb9",
+      "comment": "",
+      "command": "click",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2e199f9-3842-4202-a61a-c01f7a96217b",
+      "comment": "",
+      "command": "select",
+      "target": "id=day",
+      "targets": [],
+      "value": "label=Ngày 3"
+    }, {
+      "id": "5027b551-a6fe-4700-bf12-3f79ef00cccd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#day > option:nth-child(3)",
+      "targets": [
+        ["css=#day > option:nth-child(3)", "css:finder"],
+        ["xpath=//option[@value='3']", "xpath:attributes"],
+        ["xpath=//select[@id='day']/option[3]", "xpath:idRelative"],
+        ["xpath=//option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'Ngày 3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e83fd619-0771-4926-be3d-40bac873dab1",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-207.4166717529297"
+    }, {
+      "id": "ba510f4c-f61b-4279-81ba-c6166ecdda6e",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-207.4166717529297"
+    }, {
+      "id": "11569e8d-be9f-4540-8692-c66c33e18ee2",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": "-277,-207.4166717529297"
+    }, {
+      "id": "476bd403-77ef-49bb-90f0-3e771c2c1e2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6adf596-a0e6-4af4-af3b-802047bc3778",
+      "comment": "",
+      "command": "select",
+      "target": "id=month",
+      "targets": [],
+      "value": "label=Tháng 3"
+    }, {
+      "id": "c3594a5d-d728-4fb9-96bb-fd580d0f8dc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#month > option:nth-child(3)",
+      "targets": [
+        ["css=#month > option:nth-child(3)", "css:finder"],
+        ["xpath=(//option[@value='3'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='month']/option[3]", "xpath:idRelative"],
+        ["xpath=//select[2]/option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'Tháng 3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6aee02b-16d9-444d-9df8-e2acadabab19",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-207.4166717529297"
+    }, {
+      "id": "2cf8bd83-3d85-4bca-bddb-ed856e76aaca",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-207.4166717529297"
+    }, {
+      "id": "7d7e1ee0-5fd4-4af7-9240-35fc8f3e666b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": "-334.41668701171875,-207.4166717529297"
+    }, {
+      "id": "0a04bef0-682e-4c25-89e1-e59a423b9b40",
+      "comment": "",
+      "command": "click",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c76836d4-df15-41ea-a952-4842b99bda5b",
+      "comment": "",
+      "command": "select",
+      "target": "id=year",
+      "targets": [],
+      "value": "label=Năm 2000"
+    }, {
+      "id": "24955f59-64e2-4876-9978-2ebb8e7f47ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(76)",
+      "targets": [
+        ["css=option:nth-child(76)", "css:finder"],
+        ["xpath=//option[@value='2000']", "xpath:attributes"],
+        ["xpath=//select[@id='year']/option[76]", "xpath:idRelative"],
+        ["xpath=//option[76]", "xpath:position"],
+        ["xpath=//option[contains(.,'Năm 2000')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bcbb8cc-7309-4a89-a17c-3d4483aacf2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9e61e4a-302c-4e27-aa94-bcd87b579471",
+      "comment": "",
+      "command": "type",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "023842784324"
+    }, {
+      "id": "72bd6365-c2c1-431d-8202-fef2e1292644",
+      "comment": "",
+      "command": "click",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bc31f6a-4b19-430e-ac11-1e5fa4e7bc91",
+      "comment": "",
+      "command": "type",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "DN"
+    }, {
+      "id": "912de4a7-21c4-4757-9645-9fcc500ba744",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e77a5b5-f64d-4627-b427-6c1eae78e856",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Số điện thoại không hợp lệ')]", "xpath:innerText"]
+      ],
+      "value": "Số điện thoại không hợp lệ"
+    }]
+  }, {
+    "id": "c2827011-3c72-472c-aebc-b708e34ebe52",
+    "name": "TC_FUNC_013",
+    "commands": [{
+      "id": "a96a9bd2-fedb-4269-92a7-47d380b8b6ac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5de1aed3-5c39-4712-9734-ab72bd8feda2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "552x704",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "babf16b3-4893-413e-89b4-96e1ca21c203",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký tài khoản",
+      "targets": [
+        ["linkText=Đăng ký tài khoản", "linkText"],
+        ["css=.btn-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký tài khoản')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/TaiKhoan/DangKy')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a635fff-3351-4480-a012-1e2ed49b79db",
+      "comment": "",
+      "command": "click",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25034fbc-039d-4b40-8356-f2b4a1536852",
+      "comment": "",
+      "command": "type",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "new4@abc.com"
+    }, {
+      "id": "172ae5e2-76fd-4fc1-ad9e-7a4499638b9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4049fdae-4d35-48ce-8996-85776309ca4d",
+      "comment": "",
+      "command": "type",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "468e4f16-98eb-4228-a894-cdffbde7b181",
+      "comment": "",
+      "command": "click",
+      "target": "id=pConfirmPassword",
+      "targets": [
+        ["id=pConfirmPassword", "id"],
+        ["name=pConfirmPassword", "name"],
+        ["css=#pConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='pConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf8c15d1-d777-4cb3-b02e-7f47a3bce969",
+      "comment": "",
+      "command": "type",
+      "target": "id=pConfirmPassword",
+      "targets": [
+        ["id=pConfirmPassword", "id"],
+        ["name=pConfirmPassword", "name"],
+        ["css=#pConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='pConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "40942ebf-cf52-47b1-adef-d7740e8b4f66",
+      "comment": "",
+      "command": "click",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f063fde-c1b6-43ed-8048-dc95315d73bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "TranKhanhvu5"
+    }, {
+      "id": "433ab1bb-c9a9-408a-8b50-0acab36c9957",
+      "comment": "",
+      "command": "click",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c93e0ea-9d5b-426c-96fe-7cba29fe1559",
+      "comment": "",
+      "command": "type",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "0973236113"
+    }, {
+      "id": "0cb96221-7493-44cd-8b0a-aac0189fcfca",
+      "comment": "",
+      "command": "click",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59c58691-6125-4ce7-ad75-b2c0966d20df",
+      "comment": "",
+      "command": "select",
+      "target": "id=day",
+      "targets": [],
+      "value": "label=Ngày 8"
+    }, {
+      "id": "abda5615-d294-4a38-bc4b-168a04003435",
+      "comment": "",
+      "command": "click",
+      "target": "css=#day > option:nth-child(8)",
+      "targets": [
+        ["css=#day > option:nth-child(8)", "css:finder"],
+        ["xpath=//option[@value='8']", "xpath:attributes"],
+        ["xpath=//select[@id='day']/option[8]", "xpath:idRelative"],
+        ["xpath=//option[8]", "xpath:position"],
+        ["xpath=//option[contains(.,'Ngày 8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a891f9c-9fdf-4aed-b71e-f3f2385edd68",
+      "comment": "",
+      "command": "click",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e67d556-0a7a-46b5-99ca-df01d8aa8343",
+      "comment": "",
+      "command": "select",
+      "target": "id=month",
+      "targets": [],
+      "value": "label=Tháng 8"
+    }, {
+      "id": "daa5acc8-cadb-470c-bde4-1f79686b4842",
+      "comment": "",
+      "command": "click",
+      "target": "css=#month > option:nth-child(8)",
+      "targets": [
+        ["css=#month > option:nth-child(8)", "css:finder"],
+        ["xpath=(//option[@value='8'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='month']/option[8]", "xpath:idRelative"],
+        ["xpath=//select[2]/option[8]", "xpath:position"],
+        ["xpath=//option[contains(.,'Tháng 8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16f24c9f-0686-4132-b919-98d09e0ae246",
+      "comment": "",
+      "command": "click",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a9c23dd-bb30-4520-a976-cd58641b669b",
+      "comment": "",
+      "command": "select",
+      "target": "id=year",
+      "targets": [],
+      "value": "label=Năm 2003"
+    }, {
+      "id": "8e4f7f90-dce0-4b1a-a3f8-8e57dc0564f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(79)",
+      "targets": [
+        ["css=option:nth-child(79)", "css:finder"],
+        ["xpath=//option[@value='2003']", "xpath:attributes"],
+        ["xpath=//select[@id='year']/option[79]", "xpath:idRelative"],
+        ["xpath=//option[79]", "xpath:position"],
+        ["xpath=//option[contains(.,'Năm 2003')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03df2d82-9a46-41f7-9943-848e1f6a82a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66ed5fba-a72d-4b77-a895-9aa9c7fc4797",
+      "comment": "",
+      "command": "type",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "09875372134"
+    }, {
+      "id": "ba9e2920-65cd-4aed-9013-9f7a7ff2021d",
+      "comment": "",
+      "command": "click",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce1e005c-3436-4b11-9d55-8bceb9ce59a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "DN"
+    }, {
+      "id": "afecda6a-b0d3-4e4e-bb0b-6fca2938d55c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3196e5d2-c20d-456c-b890-e2f810eedc32",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Mật khẩu tối thiểu 8 kí tự')]", "xpath:innerText"]
+      ],
+      "value": "Mật khẩu tối thiểu 8 kí tự"
+    }]
+  }, {
+    "id": "57e87b64-30fc-47bb-857d-9edf095d75af",
+    "name": "TC_FUNC_014",
+    "commands": [{
+      "id": "f96c2379-85c4-49a1-a98c-9d93f063b929",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9700c487-89eb-4404-94e5-d3d2260cb7d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "552x704",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d370659d-1272-433f-bea2-28f39ec888fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng ký tài khoản",
+      "targets": [
+        ["linkText=Đăng ký tài khoản", "linkText"],
+        ["css=.btn-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng ký tài khoản')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/TaiKhoan/DangKy')])[2]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Đăng ký tài khoản')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c40728f-0586-4541-956b-fc1c8902e72d",
+      "comment": "",
+      "command": "click",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "804e4656-b58a-44b2-8e2c-d81453b6d029",
+      "comment": "",
+      "command": "type",
+      "target": "id=pEmail",
+      "targets": [
+        ["id=pEmail", "id"],
+        ["name=pEmail", "name"],
+        ["css=#pEmail", "css:finder"],
+        ["xpath=//input[@id='pEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@abc"
+    }, {
+      "id": "7b5a0e05-d86d-4654-bd73-078f8b134449",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(2) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(2) > .form-label", "css:finder"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05bef421-0054-4b7f-b2de-8fa3aa1da6eb",
+      "comment": "",
+      "command": "type",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "92881d34-b13c-42a5-9d0d-524f5b03ef6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(3) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(3) > .form-label", "css:finder"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Xác nhận mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7d3432c-3d9c-4962-ae3b-2dcb46ea63ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa8ef4f0-ab00-47a9-a3f0-f3381549c031",
+      "comment": "",
+      "command": "type",
+      "target": "id=pPassword",
+      "targets": [
+        ["id=pPassword", "id"],
+        ["name=pPassword", "name"],
+        ["css=#pPassword", "css:finder"],
+        ["xpath=//input[@id='pPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456Abc"
+    }, {
+      "id": "5a9dd30c-3416-4985-8a4b-c46b57481db0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(3) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(3) > .form-label", "css:finder"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Xác nhận mật khẩu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c839f16-66f8-4545-b0d9-bb966e751945",
+      "comment": "",
+      "command": "type",
+      "target": "id=pConfirmPassword",
+      "targets": [
+        ["id=pConfirmPassword", "id"],
+        ["name=pConfirmPassword", "name"],
+        ["css=#pConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='pConfirmPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456Abc"
+    }, {
+      "id": "af917434-9bea-433a-98e5-ab4819f814e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfb69e68-d9e6-4d43-abf3-18fb20ffa190",
+      "comment": "",
+      "command": "type",
+      "target": "id=pTen",
+      "targets": [
+        ["id=pTen", "id"],
+        ["name=pTen", "name"],
+        ["css=#pTen", "css:finder"],
+        ["xpath=//input[@id='pTen']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "NguyenKhanhVu"
+    }, {
+      "id": "3c87601f-d07a-427c-8201-e3ccad27b4c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e3ad028-2e4d-43aa-9b0c-3298184b4158",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16b00054-35cd-42fb-b7f9-6adfabbe25df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dc47e76-79e2-4833-9e51-612c595ef67b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-3:nth-child(5) > .form-label",
+      "targets": [
+        ["css=.mb-3:nth-child(5) > .form-label", "css:finder"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Số điện thoại')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3533091d-ad82-43bf-97d6-e1693dc0fa8b",
+      "comment": "",
+      "command": "click",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83a1bac5-474f-40e9-9b12-9c88c59c1155",
+      "comment": "",
+      "command": "type",
+      "target": "id=pSDT",
+      "targets": [
+        ["id=pSDT", "id"],
+        ["name=pSDT", "name"],
+        ["css=#pSDT", "css:finder"],
+        ["xpath=//input[@id='pSDT']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "0987274632"
+    }, {
+      "id": "8e6b0c56-391b-42c3-ba51-46907cf08496",
+      "comment": "",
+      "command": "click",
+      "target": "id=day",
+      "targets": [
+        ["id=day", "id"],
+        ["name=pDay", "name"],
+        ["css=#day", "css:finder"],
+        ["xpath=//select[@id='day']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c77e37c3-ad59-4f15-9fce-cc3cb3232c39",
+      "comment": "",
+      "command": "select",
+      "target": "id=day",
+      "targets": [],
+      "value": "label=Ngày 7"
+    }, {
+      "id": "d4ac2151-a7d7-4ea6-9216-6b289f61153e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#day > option:nth-child(7)",
+      "targets": [
+        ["css=#day > option:nth-child(7)", "css:finder"],
+        ["xpath=//option[@value='7']", "xpath:attributes"],
+        ["xpath=//select[@id='day']/option[7]", "xpath:idRelative"],
+        ["xpath=//option[7]", "xpath:position"],
+        ["xpath=//option[contains(.,'Ngày 7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d93684e-a3fd-4b4d-85c9-3c7bc8b6069a",
+      "comment": "",
+      "command": "click",
+      "target": "id=month",
+      "targets": [
+        ["id=month", "id"],
+        ["name=pMonth", "name"],
+        ["css=#month", "css:finder"],
+        ["xpath=//select[@id='month']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ee46e0f-5ac2-45b6-a515-7bf44f0d8ec4",
+      "comment": "",
+      "command": "select",
+      "target": "id=month",
+      "targets": [],
+      "value": "label=Tháng 7"
+    }, {
+      "id": "11ab4ea0-dc30-4bde-bd32-3d1a8d7b0aac",
+      "comment": "",
+      "command": "click",
+      "target": "css=#month > option:nth-child(7)",
+      "targets": [
+        ["css=#month > option:nth-child(7)", "css:finder"],
+        ["xpath=(//option[@value='7'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='month']/option[7]", "xpath:idRelative"],
+        ["xpath=//select[2]/option[7]", "xpath:position"],
+        ["xpath=//option[contains(.,'Tháng 7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c85263f1-5dc3-48a9-b79d-12e0fac345f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=year",
+      "targets": [
+        ["id=year", "id"],
+        ["name=pYear", "name"],
+        ["css=#year", "css:finder"],
+        ["xpath=//select[@id='year']", "xpath:attributes"],
+        ["xpath=//select[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9051ad1-7ff1-4b1f-ab0a-07df744b7c37",
+      "comment": "",
+      "command": "select",
+      "target": "id=year",
+      "targets": [],
+      "value": "label=Năm 2004"
+    }, {
+      "id": "4fd9904d-2a5a-40cc-a700-10f7b0245407",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(80)",
+      "targets": [
+        ["css=option:nth-child(80)", "css:finder"],
+        ["xpath=//option[@value='2004']", "xpath:attributes"],
+        ["xpath=//select[@id='year']/option[80]", "xpath:idRelative"],
+        ["xpath=//option[80]", "xpath:position"],
+        ["xpath=//option[contains(.,'Năm 2004')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ffc1a6d-0929-4d2a-a239-d9d7f9469d0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d30b99a0-980e-461b-a017-e18a36db0a3e",
+      "comment": "",
+      "command": "type",
+      "target": "id=pCccd",
+      "targets": [
+        ["id=pCccd", "id"],
+        ["name=pCccd", "name"],
+        ["css=#pCccd", "css:finder"],
+        ["xpath=//input[@id='pCccd']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "09786372633"
+    }, {
+      "id": "e33498b3-dfe7-4dbe-bdd2-4a03b68029dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "351b4d47-afd6-4604-b886-fec03aba2c67",
+      "comment": "",
+      "command": "type",
+      "target": "id=pDiaChi",
+      "targets": [
+        ["id=pDiaChi", "id"],
+        ["name=pDiaChi", "name"],
+        ["css=#pDiaChi", "css:finder"],
+        ["xpath=//input[@id='pDiaChi']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "DN"
+    }, {
+      "id": "c4a029ec-ceed-4530-8a6e-bf198cb85f4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b6cd3cd-43dd-4a64-9f70-a6f1cbea846c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Định dạng email không hợp lệ!')]", "xpath:innerText"]
+      ],
+      "value": "Định dạng email không hợp lệ!"
+    }]
+  }],
+  "suites": [{
+    "id": "a0b0b0f8-7e62-4394-b1e5-899247ba9697",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["02810a2e-f6c6-467f-8261-1478c6ec9de3"]
+  }],
+  "urls": ["http://localhost:53258/"],
+  "plugins": []
+}
