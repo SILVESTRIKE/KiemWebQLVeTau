@@ -1,0 +1,30 @@
+# .NET build artifacts
+bin/
+obj/
+*.dll
+*.pdb
+*.user
+*.suo
+*.userprefs
+*.vs
+*.vscode
+*.idea
+.vs/
+.vscode/
+
+# Test results
+TestResults/
+*.trx
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# ChromeDriver logs
+*.log
+
+# User-specific files
+*.rsuser 

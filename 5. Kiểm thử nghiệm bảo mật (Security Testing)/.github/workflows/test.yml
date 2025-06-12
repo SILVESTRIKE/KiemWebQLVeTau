@@ -1,0 +1,35 @@
+name: Security Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 9.0.x
+    
+    - name: Restore dependencies
+      run: dotnet restore seleniumTest
+    
+    - name: Build
+      run: dotnet build seleniumTest --no-restore
+    
+    # Note: The actual tests would fail in CI without a running application
+    # This step is for demonstration purposes only
+    - name: Test Build
+      run: dotnet build seleniumTest --configuration Release
+      
+    # Example of how to run specific tests when the app is available
+    # - name: Run tests
+    #   run: dotnet test seleniumTest --filter Category=UnitTest 
